@@ -1,0 +1,44 @@
+let variavelTexto = "texto";
+let variavelNumero = 7;
+
+//comando typeof declara o tipo da variável.
+console.log(typeof variavelTexto);
+console.log(typeof variavelNumero);
+
+//declarar uma variável vazia
+let variavelVazia;
+console.log(typeof variavelVazia);
+//variável nula
+let variavelNull = null;
+console.log(typeof variavelNull); // retorna como objeto 
+console.log(variavelNull); //retorna como um "vácuo"
+
+let a = "b";
+console.log(a);
+console.log(typeof a);
+a = null; //declarei "a" como nula depois de ter declarado como string.
+console.log(a);
+console.log(typeof a);
+
+//exercício 2
+let nome;
+let idade;
+let numero = 7;
+nome = prompt ("qual seu nome?");
+idade = prompt ("qual sua idade?");
+//prompt é o nosso input do python e o nosso Scanner sc = new Scanner do java.
+console.log ( typeof nome);
+console.log(typeof idade);
+console.log(numero + 5);
+console.log(numero.toString() + 5); 
+
+
+//conversão de tipo de variável
+console.log(typeof idade.toString());
+//mudar número para string = toString
+
+let n = "42";
+console.log ( Number(n));
+console.log(typeof n);
+console.log(typeof Number(n));
+
